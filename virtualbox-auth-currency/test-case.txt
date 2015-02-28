@@ -1,0 +1,7 @@
+apache & mysql in host system
+auth-service & currency-service dockerized
+
+GET http://auth.svc.local/token/generate?username=pippo&password=pluto
+
+GET http://currency.svc.local/convert/USD/EUR
+	header("Autentication", "Bearer SLwjB7Wd9ISIZRljZ46S5p74kxGVAS+ktUyzLhuqM66h4sjBoea/A5JgRhkkFYtcLn7eVYFMt/cD+FSEBV6lSnFDWInbvsVLUi8jq7Hw7hfR26h30Ok+nZndaUroEfIIXPRibiPHQ0Cu3vRSwMBEUnGRVO03F0Jn5cmSY1cuP+G1PXSvwxaK6hzVla65QWVJkDhz5MZhMPkPOhE5QgwZuDUsJmZo6r3QVaPg0A1I5XoezYkYOqRmE2oYbUlRuBE8aOac0fkdOlhoCEfT21Fft86LGgT1wUIHQD56R4Z8pFGGOiVfbij0pvnpJ/E/Agyxm6HBhFdqMJqcge9x2TMbDQ==") 
