@@ -1,7 +1,7 @@
 cd
 rm -rf currency-service
 mkdir currency-service
-cp /media/sf_test-docker/currency-service/Dockerfile currency-service/
+cp /media/sf_test-docker/virtualbox-auth-currency/currency-service/Dockerfile currency-service/
 cp /media/sf_workspace/economy2/currency-service/target/currency-service-0.0.1-SNAPSHOT.jar currency-service/
 cp /media/sf_workspace/economy2/currency-service/docker.yml currency-service/ 
 cp /media/sf_workspace/rest-ms/auth-service/src/test/java/private.key currency-service/

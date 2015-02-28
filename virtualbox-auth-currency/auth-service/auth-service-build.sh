@@ -1,7 +1,7 @@
 cd
 rm -rf auth-service
 mkdir auth-service
-cp /media/sf_test-docker/auth-service/Dockerfile auth-service/
+cp /media/sf_test-docker/virtualbox-auth-currency/auth-service/Dockerfile auth-service/
 cp /media/sf_workspace/rest-ms/auth-service/target/auth-service-1.0-SNAPSHOT.jar auth-service/
 cp /media/sf_workspace/rest-ms/auth-service/docker.yml auth-service/ 
 cp /media/sf_workspace/rest-ms/auth-service/src/test/java/private.key auth-service/
